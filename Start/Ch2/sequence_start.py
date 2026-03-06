@@ -3,21 +3,34 @@
 
 # Sequences: Lists and Tuples
 # These are -- surprise -- sequences of values
-
-
+mylist = [1, 2, "two", False, 3.14]
+# print(len(mylist))
 # to access a member of a sequence type, use []
-
-
+# print(mylist[1])
+# print(mylist[-1])
 # add a list to another list
+# mylist[0] = 100
+# print(mylist)
+# mylist.append(200)
+# print(mylist)
 
+# another_list = [4, 5, 6]
+# mylist = mylist + another_list
+# print(mylist)
 
+# mystr = "This is a string"
+# print(mystr[5:7])
 # use slices to get parts of a sequence
-
+# print(mylist[1:4:2])
+# print(mylist[::2])
 
 # you can use slices to reverse a sequence
+# print(mylist[::-1])
 
 
 # Tuples are like lists, but they are immutable
+mytuple = (1, 2, "two", False, 3.14)
+print(mytuple[1])
 
 
 # Sets are also sequences, but they contain unique values
